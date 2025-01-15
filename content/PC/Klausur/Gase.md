@@ -11,6 +11,10 @@ $$
 $$
 1\ bar = 1.013\ bar
 $$
+## 1.3 Boltzmann Konstante
+$$
+k_B = R*N_A
+$$
 # 2. Thermodynamik
 ##  2.1 Systeme
 - offen
@@ -281,6 +285,14 @@ $$
 $$
 c = \langle v^2\rangle^{1/2}
 $$
+###  7.3.3 Durchschnittliche Geschwindigkeit (in Maxwell)
+$$
+\overline  c =  \sqrt{\frac{8RT}{\pi M}}
+$$
+### 7.3.4 wahrscheinlichste Geschwindigketi (Maxwell)
+$$
+c^*=\sqrt{\frac{2RT}{M}}
+$$
 # 8. Maxwell Geschwindigkeitsverteilung
 Für den Anteil der Teilchen im Intervall $v$ bis $v+\mathrm dv$ gilt
 $$
@@ -302,3 +314,84 @@ $$
  \left(\frac{M}{2\pi RT}\right)^\frac32 exp\left(\frac{-Mv^2}{2RT}\right)dv_xdv_ydv_z
 $$
 Dies wird durch zur Gleichung 1 umgeformt, indem das Volumen einer Kugelschalge $4\pi v^2dv$ genutzt wird. Dann gilt sie für den Betrag der geschwindigkeit.
+
+
+## 8.1 kin Energie eines Teilchens
+$$
+\langle\epsilon_{kin}r\rangle = \frac12 m \langle v^2\rangle=\frac{3}{2}k_BT
+$$
+$$
+\overline E_{kin} = \frac 32 RT
+$$
+$$
+\langle v_x^2\rangle = \frac 13 \langle v^2\rangle
+$$
+
+# 9. Boltzmann Verteilung
+Der Term der Maxwell Verteilung
+$$
+	\exp\left(-\frac{Mv^2}{2RT}\right)
+$$
+kann geschrieben werden als
+$$
+	\exp\left(-\frac{E_{kin}}{RT}\right)
+$$
+Es gilt die Boltzmann Verteilung
+$$
+\frac{N(E)}{N} \propto e^{-\dfrac{E}{RT}}
+$$
+# 10. Relative Geschwindigkeit
+![[Pasted image 20250115133608.png]]
+Gleiche Masse
+$$
+\overline c_{rel} = \sqrt 2 \ \overline c
+$$
+Verschiedene Masse
+$$
+\overline c_{rel} = \sqrt{\overline c^2_1 + \overline c_2^2} = \sqrt{\frac{8k_BT}{\pi m_1} +\frac{8k_BT}{\pi m_2}} = \sqrt{\frac{8k_BT}{\pi\mu}}
+$$
+Mit reduzierter Masse
+$$
+\mu = \frac{m_1m_2}{m_1+m_2}
+$$
+# 10. Stoßfrequenz
+$$
+Z = \pi \overline c_{rel} \frac{p}{k_BT}
+$$
+## 10.1 Der Stoßquerschnitt
+Ein sich bewegendes teilchen bewegt sich gewisssermaßen durch eine Röhre mit
+
+Grundfläche
+$$
+\sigma = \pi d^2
+$$
+und Länge
+$$
+\lambda = \overline c_{rel}\Delta t
+$$
+Demzufolge hat die Röhre ein Volumen von 
+$$
+V = \sigma \overline c_{rel} \Delta t
+$$
+![[Pasted image 20250115134734.png]]
+## 10.2 Die Stoßfrequenz
+In der Röhre befinden sich teilchen. Die Zahl kann als konstant angenommen werden, da sich die Teilchen perfekt zufällig bewegen.
+$$
+\textit{Zahl der Stöße} = \frac NV\ \sigma\ \overline c_{rel}\ \Delta T 
+$$
+Stoßfrequenz 
+$$
+Z_1 = \frac{\frac NV\ \sigma\ \overline c_{rel}\ \Delta t }{\Delta t} = \frac{N}{V} \ \sigma\ \overline c_{rel}
+$$
+Mit dem idealen Gassgesetz folgt:
+$$
+\frac NV = \frac{p\ nN_A}{RT} = \frac{p\,n}{k_BT}
+$$
+## 10.3 Die mittlere freie Weglänge
+$$
+\lambda = \frac{\overline c}{Z_1} = \frac{\overline c k_B}{\sigma \overline c_{rel} p}
+$$
+Für nur eine Teilchensorte folgt:
+$$
+\lambda = \frac{\overline c k_B}{\sigma \sqrt 2\overline c p} =  \frac{k_B}{\sqrt 2 \sigma p }
+$$

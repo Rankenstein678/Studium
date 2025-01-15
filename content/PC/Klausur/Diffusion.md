@@ -1,12 +1,10 @@
-Gibt an einen Stoff konzentriert in Lösung, so verteilt sich dieser Stoff mit der Zeit.  Dieser Prozess wird als ==Diffusion== bezeichnet.
-                                                  
+Gibt an einen Stoff konzentriert in Lösung, so verteilt sich dieser Stoff mit der Zeit.  Dieser Prozess wird als ==Diffusion== bezeichnet.                                              
 ### Konzentrationsgradient                                                  
 Das Gefälle zwischen dem Punkt mit der initial höchsten Konzentration und einem Punkt im Abstand $x$ heißt ==Konzentrationsgradient==                                                  
 Für den Konzentrationsgradienten gilt:                                                  
 $$                                                
 \dfrac{dc}{dx} < 0                                                
-$$                                                
-                                                  
+$$                                                              
 ### Der Fluss $J$                                                  
 Der Fluss bezeichnet die Stoffmenge die eine gewisse Fläche in einer gewissen Zeit durchfließt:                                                  
 $$                                                  
@@ -16,8 +14,8 @@ Der Fluss ist proportional zur Konzentrationsgradienten:
 $$                                                  
 J \propto \dfrac{dc}{dx}                                                  
 $$                                                  
-Da der Fluss in x-Richtung positiv ist gilt das erste Fick'sche Gesetz                                                  
-                                                  
+Da der Fluss in x-Richtung positiv ist (d.h. Teilchen Fließen durchh) gilt das erste Fick'sche Gesetz                                                  
+
 ### Das 1. Fick'sche Gesetz                                                  
 > [!important]  1\. Fick'sches Gesetz                                                 
 >$$                                              
@@ -25,7 +23,16 @@ Da der Fluss in x-Richtung positiv ist gilt das erste Fick'sche Gesetz
 >$$                                              
                                                   
 D ist hier der ==Diffusionskoeffizient== mit der Einheit $[D] = \dfrac{m^2}{s}$                                                   
-                                                  
+
+### Chemisches Potential und Kräfte
+Allgemein gilt für die Kraft F und die Energie (Potential) w folgendes:
+$$
+F = -\frac{\partial w}{\partial t}
+$$
+Die treibende Kraft für  die Diffusion hängt vom chemischen Potential ab
+$$
+F = -\left(\frac{\partial \mu}{\partial t}\right)_{p,t}
+	$$ P und t sind wie durch den index deklariert konstant
 ### Das 2. Fick'sche Gesetz                                                  
 #### Herleitung                                                  
 Gegeben sei folgende Situation                                                  
@@ -63,7 +70,7 @@ $$
 Daraus folgt das 2.Fick'sche Gesetz                                                
 > [!important]  2\. Fick'sches Gesetz                                                
 >$$                                        
->\frac{\partial d}{\partial t} = Dl\frac{\partial^2c}{\partial x^2}                                              
+>\frac{\partial c}{\partial t} = Dl\frac{\partial^2c}{\partial x^2}                                              
 >$$                                         
                                                 
 #### Lösungen des 2. Fick'schen Gesetzes                                                
