@@ -277,3 +277,244 @@ $$
 \color{red}[A] = \frac{k^\prime[A]_0}{k+k^\prime}\left(1+\frac k{k^\prime}e^{-(k+k^\prime)t}\right)
 $$
 Aus der ersten Gleichung lässt sich durch Plotten $(k+k^\prime)$
+# 8. Lindemann Mechanismus
+Modell für Unimolekulare Gasreaktionen, da jede Unimolekullare Reaktion eine Vorgeschichte haben muss.
+$$
+\begin{align}
+\ce{A + M &->[k_1] A^* + M \qquad\textit{(A bekommt Energie aus Stoß)}}\\
+\ce{A^* + M&->[k_2] A + M\qquad\textit{(A verliert Energie durch Stoß)}}\\
+\ce{A^* &->[k_3] B (+C)}
+\end{align}
+$$
+Für $[A^*]$ lässt sich aufgrund der geringen Konzentration die Bodensteinsche ... treffen
+Es folgt:
+$$
+0 = k_1[A][M]-(k_2[M] + k_3)[A^*]
+$$
+Für das Produkt gilt:
+$$
+\frac{d[B]}{dt} = k_3[A*] = k_3 \frac{k_1[A][M]}{k_2[M]+k_3} = k_{uni} [A]
+$$
+## 8.1 Sonderfälle
+Bei hohem Druck $k_2[M] \gg k_3$
+$$
+-\frac{d[A]}{dt} = \frac{k_1k_3}{k2}[A]
+$$
+==> Erste Ordnung
+
+Bei niedrigem Druck $k_2[M] \ll k_3$
+$$
+-\frac{d[A]}{dt} = k_1[A][M]
+$$
+==> Pseudo erste Orrdnung bei konstantem $[M]$
+# 9. Enzymkinetik
+Enzyme sind extrem effiziente Biokatalysatoren. Sie haben 1 oder mehrere Aktive Zentren, in denen das Substrat gebunden wird.
+## 9.1 Exp.  Beob
+1. Geschw. d. Substratumsatzes ist proportional zur Enzymkonz.
+2. Plateau der Geschwindigkeit bei hoher Substratkonz
+## 9.2 Der Michaelis-Menten-Mechanismus
+Ein Modell für Enzymreaktionen ist:
+$$
+\ce{E + S <=>[k_1][k_{-1}]  ES ->[k_2] E + P}
+$$
+Für die Geschwindigkeit gilt
+$$
+v = \frac{k_2[E]_0}{1+K_M/[S]}
+$$
+
+### 9.2.1 Herleitung
+Die Bodensteinsche Quasistationaritätsannnahme wird getroffen:
+
+$$
+\frac{d[ES]}{dt}=0 = k_1[E][S] - k_{-1}[ES] - k_2[ES]
+$$
+Es folgt
+$$
+[ES] = \frac{k_1}{k_{-1}+k_2}[E][S]
+$$
+Es wird die Michaelis konstante definiert als
+$$
+K_M = \frac{k_{-1}+k_2}{k_1} = \frac{[ES]}{[E][S]}
+$$
+Nun gilt
+$$
+[E] = [E]_0 - [ES]  
+$$
+Eingesetzt folgt
+$$
+\frac{[S]([E]_0-[ES])}{K_M} = [ES]
+$$
+Durch umformen folgt
+$$
+[ES] = \frac{[E]_0}{1+ \frac{K_M}{[S]}}
+$$
+Alternativ kann $[S]_0 = [S]$ angenommen werden, wenn das Substrat im Verglecichh zum Enzym im großen Überschuss vorhanden ist.
+
+## 9.3 Einfluss der Substratkonzentration
+### 9.3.1 $[S] \gg K_M$ 
+Es ist soviel Substrat vorhanden, dass die Konzentration als Konstant angesehen werden kann. Die ordnung bezüglich des Substrats ist 0.
+$$
+\frac{d[P]}{dt} =v= v_{max}= k_2 [ES] = S] = \frac{k_2[E]_0}{1+ \frac{K_M}{[S]}}
+ = k_2[E_0]
+$$
+Die Maximale Geschwindigkeit ist erreicht
+
+Die maximale turn over Zahl ist die Maximale Zahl an Umgesetzten Substrat Teilchen pro sekunde pro aktives Zentrum
+$$
+k_2 = \frac {v_{max}}{[E]_0} = k_{cat}
+$$
+### 9.3.2 $[S] = K_M$ 
+$$
+v =\frac 12 v_{max}
+$$
+### 9.3.3 $[S] \ll K_M$
+Siehe Herleitung
+$$
+v = \left(\frac{k_2}{K_M} [E]\right)[S] 
+$$
+linerare Anstieg
+
+## 9.4 Enzymhemmung
+
+### 9.4.1 kompetetive Hemmung
+$$
+\ce{E + I <=> EI -> \textit{Reagiert nciht zum Produkt}}
+$$
+Für die Dissoziation gilt:
+$$
+K_I = \frac{[EI]}{[E][I]} => \frac{[I]}{K_I} = \frac{[EI]}{[E]}
+$$
+Ist $\frac{[I]}{K_I}=1$ so ist die Enzymkonzenntration halbiert. Folglich gilt
+$$
+\frac{k_2[E]_0}{1+ \frac{K_M}{[S]}\left(1 + \frac {[I]}{K_I}\right)}
+$$
+![[Pasted image 20250117134941.png]]
+### 9.4.2 unkompetetive Hemmung
+![[Pasted image 20250117132754.png]]
+Für die GGW konst. gilt
+$$
+K_I^\prime = \frac{[ES][I]}{[ESI]}
+$$
+![[Pasted image 20250117134951.png]]
+### 9.4.3 nicht kompetetive Hemmung
+![[Pasted image 20250117133227.png]]
+Der Inhibitor bindet das Enzym an anderer Stelle, also nicht am aktiven Zentrum. Die Enzym Substrat-Bindung wird daher durch die Enzym-Inhibitor-Bindung nicht beinflusst. Das Produkt kann nur durch Freisetzung aus dem Enzym-Substratkomplex erfolgen und nicht aus dem Enzym-Inhibitor-Substratkomplex ESI.
+
+Für das GGW gilt
+$$
+K_I = \frac{[E][I]}{[EI]}
+$$
+$$
+K_I^\prime = \frac{[ES][I]}{[ESI]}
+$$
+![[Pasted image 20250117135220.png]]
+## 9.5 Linweaver-Burk-Auftragung
+Folgende Umformung ist möglich
+$$
+v = \frac{k_2[E]_0}{1+\frac{K_M}{[S]}} = \frac{v_max}{1+\frac{K_M}{[S]}}  
+$$
+=>
+---
+$$
+\frac 1v = \frac 1{v_{max}} + \frac{K_M}{v_{max}}\frac{1}{[S]} 
+$$
+=> Lineare Auftragung von $\dfrac 1v$ gegen  $\dfrac 1{[S]}$ 
+# 10 Ionenstärke
+Mehrfach geladenen Ionen haben einen stärkeren Einfluss auf die Aktivität als ungeladene.
+# 11. kinetischer Salzeffekt
+???? brauchen wir das ???
+
+# 12. Der Temperatursprung und die Relaxation
+Bei $t_0$ ist $T = T^\prime$
+Bei $t_1$ ist $T = T$
+
+Im GGW zu beginn gilt
+$$
+k_1^\prime [A]_{eq} = k^\prime_{-1} [B]_{eq} 
+$$
+Bei t1:
+$$
+\frac{d[A]}{dt} = -k_1 ([A]_{eq}+x)+ k_{-1}([B]_{eq}-x) = (k_{-1}-k_1)x
+$$ $\uparrow$ Da im GGW 
+
+Es gilt:
+$$
+\frac{d[A]}{dt} = \frac{dx}{dt} => x = e^{-\dfrac t\tau}
+$$
+mit 
+$$
+\tau = (k_1+k_{-1})^{-1}
+$$
+Mit einer Zeitmessung und der Gleichgewichtskonstante können beide Geschwindigkeitskonstanten bestimmt werden.
+
+> [!example] Bem.
+> da der Temperatursprung i. Allg. nur zu geringen Abweichungen vom Glgw. führt, können quadratische Terme vernachlässigt werden und man kann – wie oben getan – schreiben
+
+# 13. Diffusionskontrollierte Reaktionen
+$$
+\ce{A + B <=> (AB) -> C}
+$$
+(AB) ist ein Molekülpaar im Lösemittelkäfig, dass entweder auseinander diffundieren oder reagieren kann.
+
+Wenn $k_2\gg k_{-1}$ und die Aktivierungsenergie klein ist dann ist die Reaktion Diffusionskontrolliert.
+
+==> Die Moleküle treffen aufeinander und reagieren sofort weiter.
+$$
+\ce{A + B ->[k_a] C}
+$$
+Nach Smoluchowski
+$$
+k_a =4\pi N_L(D_A+D_B)(R_A+R_B) 
+$$
+Mit 
+- D: Diffusionskoeffizient
+- R: Molekülradius
+- Annahme A&B sind Kugelförmig
+# 14. Komplexe Zeitgesetze 
+Manche komplexen Zeitgesetze können nicht mehr analytisch sondern nur noch numerisch bestimmt werden.
+Dazu wird dann $\Delta$ statt $d$ genutzt
+$$
+\Delta [A] = -\Delta t\, k[A]
+$$
+
+Für Zeitintervalle wird die Konzentrationsänderung berechnet
+
+# 15. Ideales Knäuel - Fadenendenabstand
+Durchschnittlicher Fadenendenabstand:
+$$
+\langle R \rangle = 0
+$$
+Daher nutzt man den Quadratischen
+$$
+\langle R^2\rangle = N l^2
+$$
+Mit 
+- N = Anzahl Teilstücke
+- l = Länge eines Teilstücks
+## 15.1 Herleitung
+$$
+\vec R = \sum_{n=0}^N \vec l_n
+$$
+$$
+R^2= \vec R \cdot \vec R = (l_1+l_2+l_3+\ldots)(l_1+l_2+\ldots)
+$$
+Es kommt N mal zu $l_i*l_i$ 
+$$
+R^2 = Nl^2 + \ldots
+$$
+Der Rest wird wie folgt addiert
+$$
+R^2 = Nl^2 + 2 \sum_{i>j}\sum \vec l_i\cdot\vec  l_j
+$$
+Für den Mittelwert gilt
+$$
+\langle R^2\rangle = Nl^2+2\sum_{i>j} \sum \langle \vec l_i \cdot \vec l_j\rangle
+$$
+Das Skalarprodukt zweier Vektoren wird eingesetzt
+$$
+\langle R^2\rangle = Nl^2+2\sum_{i>j} \sum l^2\langle \cos \gamma_{ij}\rangle
+$$
+Geht man von einer idealen Kette aus ist der Durchschnittswinkel 90°
+$$
+<R^2> = Nl^2
+$$
