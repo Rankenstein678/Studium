@@ -13,7 +13,7 @@ $$
 $$
 ## 1.3 Boltzmann Konstante
 $$
-k_B = R*N_A
+k_B = R/N_A
 $$
 # 2. Thermodynamik
 ##  2.1 Systeme

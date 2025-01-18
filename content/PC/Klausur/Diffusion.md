@@ -1,4 +1,4 @@
-Gibt an einen Stoff konzentriert in Lösung, so verteilt sich dieser Stoff mit der Zeit.  Dieser Prozess wird als ==Diffusion== bezeichnet.    
+	Gibt an einen Stoff konzentriert in Lösung, so verteilt sich dieser Stoff mit der Zeit.  Dieser Prozess wird als ==Diffusion== bezeichnet.    
 # 1. Konzentrationsgradient
 $$
 \frac{dc}{dx}<0

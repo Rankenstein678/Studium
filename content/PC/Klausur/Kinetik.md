@@ -142,7 +142,13 @@ Um auf die Zweite Ordnung zu testen plottet man $1/[A]$ gegen t.
 #### 3.3.b.b Zweite Ordnung der Art A+B
 ![[Pasted image 20250105155305.png]]
 
-
+### 3.3.c Nullte Ordnung
+$$
+\frac{d[A]}{dt} = -k
+$$
+$$
+t_{1/2} = \frac{[A]_0}{2k}
+$$
 # 4. Temperaturabhängigkeit - Die Arrheiusgleichung
 In der Regel nimmt die Geschwindigkeit einer Reaktion mit steigender Temperatur zu.
 Aus Experimenten folgt
