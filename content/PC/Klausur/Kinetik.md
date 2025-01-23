@@ -166,7 +166,7 @@ mann  stellt die Arrheniusgleichung auf
 > Mit:
 > $A$ = Vorfaktor, Präexponentieller Faktor, Frequenzfaktor (Maß für die Zahl der Stöße)
 > $E_A$ = Aktivierungsenergie: Minimale Energie, die die Reaktanten haben müssen, damit die Reaktion ablaufen kann
-> $Ae^{-\frac{E_A}{RT}}$ = Maß für die Zahl der Stöße die zur Reaktion führen
+> $Ae^{-\frac{E_A}{RT}}$ = Maß für die Zahl der Stöße die zur Reaktiiion führen
  
 
 
@@ -174,9 +174,7 @@ mann  stellt die Arrheniusgleichung auf
 gegeben sei folgende Reaktion
 $$
 \ce{A ->[k1] I ->[k2] P}
-$$
-
-Unter der Annahme dass $[I]_0=[P]_0 = 0$ fährt man wie folgt fort.
+$$Unter der Annahme dass $[I]_0=[P]_0 = 0$ fährt man wie folgt fort.
 
 Für $[I]$ gilt:
 $$
@@ -443,8 +441,7 @@ $$
 Bei t1:
 $$
 \frac{d[A]}{dt} = -k_1 ([A]_{eq}+x)+ k_{-1}([B]_{eq}-x) = (k_{-1}-k_1)x
-$$ 
-$\uparrow$ Da im GGW 
+$$ $\uparrow$ Da im GGW 
 
 Es gilt:
 $$
@@ -527,31 +524,3 @@ Geht man von einer idealen Kette aus ist der Durchschnittswinkel 90°
 $$
 <R^2> = Nl^2
 $$
-
-# 16 Fadenendenabstand
-Die Verteilung der ABstände folgt gauss mit:
-$$
-W(N,\vec R) = \left(\frac{3}{2\pi N l^2}\right)^\frac{3}{2} e^{\frac{-3R^2}{2Nl^2}} d\vec R
-$$
-Oder für den Betrag
-$$
-W(N,R) = 4\pi R^2 \left(\frac{3}{2\pi N l^2}\right)^\frac{3}{2} e^{\frac{-3R^2}{2Nl^2}} d R
-$$
-
-(Gilt nur für Große N)
-
-## 16.1 Der Trägheitsradius
-$\langle R^2\rangle$ ist nicht messbar, aber mittlerer quadratischer Trägheitsradius $\langle S^2\rangle$ 
-(Abstand Schwerpunkt - Monomer)
-
-$$
-\langle S^2\rangle  = \frac 16 \langle R^2\rangle 
-$$
-
-## 16.2 Ergodizität
-Mittlerer Fadenendenabstand ist gleich egal ob ein Molekül über die Zeit oder viele Gleichzeitig beobachtet werden
-## 16.3 Charakteristisches Verhältnis
-$$
-C_\infty = \frac{\langle R^2\rangle}{Nl^2}
-$$
-für $N\gg 1$ 
