@@ -176,7 +176,7 @@ $$
 \frac{\mathrm d\,p}{\mathrm d\,V_m}  = 0 \textit{ und } \frac{\mathrm d\,p^2}{\mathrm d\,V_m^2} = 0
 $$
 für die vdw gilt dann
-$\displaystyle p_{cr} = \frac {a}{27b}$ , $\displaystyle T_{cr} = \frac{8a}{27Rb}$, $\displaystyle V_{m,cr}= 3b$
+$\displaystyle p_{cr} = \frac {a}{27b^2}$ , $\displaystyle T_{cr} = \frac{8a}{27Rb}$, $\displaystyle V_{m,cr}= 3b$
 es folgt
 $$
 Z_{cr} = \frac 38
@@ -336,7 +336,7 @@ kann geschrieben werden als
 $$
 	\exp\left(-\frac{E_{kin}}{RT}\right)
 $$
-Es gilt die Boltzmann Verteilung
+Dieser Term wird auch Boltzmann Faktor gnannt
 $$
 \frac{N(E)}{N} \propto e^{-\dfrac{E}{RT}}
 $$
@@ -356,7 +356,7 @@ $$
 $$
 # 10. Stoßfrequenz
 $$
-Z = \pi \overline c_{rel} \frac{p}{k_BT}
+Z = \sigma \overline c_{rel} \frac{p}{k_BT}
 $$
 ## 10.1 Der Stoßquerschnitt
 Ein sich bewegendes teilchen bewegt sich gewisssermaßen durch eine Röhre mit
@@ -377,7 +377,7 @@ $$
 ## 10.2 Die Stoßfrequenz
 In der Röhre befinden sich teilchen. Die Zahl kann als konstant angenommen werden, da sich die Teilchen perfekt zufällig bewegen.
 $$
-\textit{Zahl der Stöße} = \frac NV\ \sigma\ \overline c_{rel}\ \Delta T 
+\textit{Zahl der Stöße} = \frac NV\ \sigma\ \overline c_{rel}\ \Delta t 
 $$
 Stoßfrequenz 
 $$
