@@ -393,5 +393,5 @@ $$
 $$
 Für nur eine Teilchensorte folgt:
 $$
-\lambda = \frac{\overline c k_B}{\sigma \sqrt 2\overline c p} =  \frac{k_B}{\sqrt 2 \sigma p }
+\lambda = \frac{\overline c k_BT}{\sigma \sqrt 2\overline c p} =  \frac{k_BT}{\sqrt 2 \sigma p }
 $$
