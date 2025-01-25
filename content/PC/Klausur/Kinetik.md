@@ -418,7 +418,7 @@ $$
 K_I^\prime = \frac{[ES][I]}{[ESI]}
 $$
 ![[Pasted image 20250117135220.png]]
-## 9.5 Linweaver-Burk-Auftragung
+## 9.5 Lineweaver-Burk-Auftragung
 Folgende Umformung ist möglich
 $$
 v = \frac{k_2[E]_0}{1+\frac{K_M}{[S]}} = \frac{v_max}{1+\frac{K_M}{[S]}}  
@@ -429,6 +429,12 @@ $$
 \frac 1v = \frac 1{v_{max}} + \frac{K_M}{v_{max}}\frac{1}{[S]} 
 $$
 => Lineare Auftragung von $\dfrac 1v$ gegen  $\dfrac 1{[S]}$ 
+
+Es folgt:
+
+Schnittpunkt mit der x-Achse $-\frac1{K_M}$
+Schnittpunkt mit der y-Achse $\frac 1{v_{max}}$
+
 # 10 Ionenstärke
 Mehrfach geladenen Ionen haben einen stärkeren Einfluss auf die Aktivität als ungeladene.
 # 11. kinetischer Salzeffekt
