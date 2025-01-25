@@ -174,7 +174,11 @@ mann  stellt die Arrheniusgleichung auf
 gegeben sei folgende Reaktion
 $$
 \ce{A ->[k1] I ->[k2] P}
-$$Unter der Annahme dass $[I]_0=[P]_0 = 0$ fährt man wie folgt fort.
+
+$$
+
+
+Unter der Annahme dass $[I]_0=[P]_0 = 0$ fährt man wie folgt fort.
 
 Für $[I]$ gilt:
 $$
