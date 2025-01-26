@@ -343,6 +343,7 @@ $$
 [ES] = \frac{k_1}{k_{-1}+k_2}[E][S]
 $$
 Es wird die Michaelis konstante definiert als
+==In Worten: Substratkonzentration für halbmaximale Geschwindigkeit==
 $$
 K_M = \frac{k_{-1}+k_2}{k_1} = \frac{[ES]}{[E][S]}
 $$
@@ -437,6 +438,18 @@ Schnittpunkt mit der y-Achse $\frac 1{v_{max}}$
 
 # 10 Ionenstärke
 Mehrfach geladenen Ionen haben einen stärkeren Einfluss auf die Aktivität als ungeladene.
+$$
+\ce{A^{z_A} + B^{z_B} -> P}
+$$
+$$
+\lg k = \lg k_0 + 2Az_Az_B\sqrt I
+$$
+Mit 
+$$
+I = \frac 12 \sum_i m_iz_i^2
+$$
+
+Wobei m die  ==Molalität== ist
 # 11. kinetischer Salzeffekt
 ???? brauchen wir das ???
 
@@ -451,7 +464,9 @@ $$
 Bei t1:
 $$
 \frac{d[A]}{dt} = -k_1 ([A]_{eq}+x)+ k_{-1}([B]_{eq}-x) = (k_{-1}-k_1)x
-$$ $\uparrow$ Da im GGW 
+$$
+
+$\uparrow$ Da im GGW 
 
 Es gilt:
 $$
