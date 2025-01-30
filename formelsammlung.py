@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import os
 from os import walk
 from os.path import isfile, join
