@@ -75,22 +75,3 @@
 >	\frac 1\lambda = \frac 34 R_\infty(Z-1)^2
 >$$
 
-# 4. Ionenbindungen
->[!important] Satz von Hess
->Bei gleichem Anfangs und Endzustand einer Reaktion ist die Reaktionsenthalpie unabhängig g vom Reaktionsweg
-
->[!important] Gitterenergie
->$$
->U_G \propto \frac{z_Az_Ke^2}{r_A+r_K}
->$$
-
-# 5. Kovalente Bindungen
->[!important] Dipolmoment
->$$
->\mu = q \cdot r
->$$
->Häufig verwendete Einheit Debeye:
->$$
->1\,D = 3.336\cdot 10^{-30}\quad C\cdot m
->$$
-
