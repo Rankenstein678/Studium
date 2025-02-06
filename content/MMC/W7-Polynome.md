@@ -6,9 +6,9 @@
 >\textit{reell: }& x \in \mathbb{R},\ a_i \in \mathbb{R},\ n \in \mathbb{N}\\          
 >\textit{komplex: }& z \in \mathbb{C},\ a_i \in \mathbb{C},\ n \in \mathbb{N}\\          
 >\end{align}          
->$$
-
->[!example] Satz: Identitätssatz für Polynome          
+$$          
+          
+> [!example] Satz: Identitätssatz für Polynome          
 > "Wenn die Koeffizienten zweier Polynome gleich sind so sind sie gleich"          
 > Mathematisch:          
 > Gegeben seien          
@@ -22,7 +22,7 @@
 > P und Q sind gleich wenn:          
 > $$          
 > a_i=b_i\ \forall\ 0\ldots n          
-> $$
+> $$          
 > daher "Koeffizientenvergleich"          
           
 > [!warning] Technik: Polynomdivision          
