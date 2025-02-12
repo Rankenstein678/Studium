@@ -1,7 +1,15 @@
 #!/usr/bin/env python3
 import os
 from os import walk
+import re
 from os.path import isfile, join
+
+def atoi(text):
+    return int(text) if text.isdigit() else text
+
+def natural_keys(text):
+    return [ atoi(c) for c in re.split(r'(\d+)', text)]
+
 
 p = join(os.getcwd(),"content","AC","Klausur (oh je)")
 fs = []
@@ -10,7 +18,8 @@ for path, subdirs, files in os.walk(p):
         fs.append(os.path.join(os.getcwd(),"content","AC","Klausur (oh je)",path, name))
 
 print(files)
-
+fs.sort(key=natural_keys)
+print(fs)
 formelsammlung = open(join(os.getcwd(),"content","AC","Klausur (oh je)","Formelsammlung.md"),"w")    
 formelsammlung.close()
 
