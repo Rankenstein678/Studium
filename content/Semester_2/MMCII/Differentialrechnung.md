@@ -77,3 +77,65 @@ $$
 Falls $f^\prime(x_0)$ für $x_0\in I$ existiert, dann ist $f : I\mapsto \mathbb R$ stetig in $x_0$
 
 >[!error] Nur weil eine Funktion stetig ist, heißt dies nich dass sie dfferenzierbar ist (einseitge Implikation)
+
+
+## Ableitungsregeln
+1. $(f+g)^\prime (x) = f^\prime (x) + g^\prime (x)$
+2. $(c\cdot f)^\prime (x) = cf^\prime (x) \quad \forall c\in\mathbb R$
+3. $(fg)^\prime (x) = f^\prime(x) \cdot g(x) + f(x)\cdot g^\prime(x)$
+4. $\dfrac{1}{g}^\prime (x) = -\dfrac{g^\prime(x)}{g^2(x)}$
+5. $\dfrac{f}{g}^\prime (x) = -\dfrac{f^\prime(x)\cdot g(x) - f(x)\cdot g^\prime(x)}{g^2(x)}$
+6. $(g\circ f)^\prime(x)=g^\prime(f(x))\cdot f^\prime(x)$
+
+### Trigonometrische Funktionen
+$$
+\begin{align}
+\sin^\prime x&=\cos x\\
+\cos^\prime x &= -\sin x\\
+\tan^\prime x &= \frac1{\cos^2x}\\
+\cot^\prime x &= - \frac1{\sin^2x}
+\end{align}
+$$
+
+## Glatte Funktionrn
+Falls $f^n$,$f^{(n-1)}$,etc. $f\in C^0(I)$, dann schreibt man $f \in C^n(I)$.
+Aus [[Differentialrechnung#Lemma 7.5]] folgt
+$$
+f^n \in C^0(I) \longrightarrow f \in C^n(I) 
+$$
+
+F heißt ==glatt== auf I, wenn
+$$
+f \in C^n(I) \forall\, n\in \mathbb N
+$$
+Bsp: Polynome, trig, exp
+
+# Partielle Ableitungen
+Sei $\Omega\in \mathbb R$ offen, $f:\Omega\rightarrow\mathbb R$ und $a=(a_1,a_2,\ldots,a_n)\in\Omega$. Dann heißt
+$$
+f_{x_i} := \frac{\partial f}{\partial x_i}(a)
+$$
+die partielle Ableitung.
+
+# Gradient:
+Der Gradient $\nabla$ von f an der Stelle $a\in \Omega$  ist geg, durch den Vektor
+
+$$
+\nabla f(a):= grad\,f(a):=\begin{pmatrix}\dfrac{\partial f}{\partial x_1}(a)\\
+\dfrac{\partial f}{\partial x_2}(a)\\\vdots\end{pmatrix}\in \mathbb R
+$$
+# Jacobi'sche Matrix
+Ist  für $\underline f=(f^1,f^2,\ldots,f^m): \Omega\rightarrow\mathbb R^m$ jede Komponente k-mal stetig partiell differenzierbar, dann schreiben wir:
+$$
+f \in C^k(\Omega,\mathbb R^m)
+$$
+Die Matrix
+
+$$
+D\,f(a)=\begin{pmatrix}\color{lightgreen}\dfrac{\partial f^1}{\partial x_1}(a)&\color{lightgreen}\ldots&\color{lightgreen}\dfrac{\partial f^1}{\partial x_n}(a)\\
+\vdots &\ddots &\vdots\\
+\dfrac{\partial f^m}{\partial x_1}(a)&\ldots&\dfrac{\partial f^mm}{\partial x_n}(a)
+\end{pmatrix}
+$$
+heißt die ==Jacobi'sche== oder Funktionalmatrix
+Grün markiert ist der Gradient von $f^1$
