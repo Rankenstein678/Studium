@@ -1,18 +1,18 @@
 # Substanzen
 1-3 von:
 
-- $\ce{BaSO4}$
-- $\ce{SrSO4}$
-- $\ce{CaSO4}$
-- $\ce{Al2O3}$
-- $\ce{Al(OH)3}$
-- $\ce{Cr2(SO4)3}$
-- $\ce{Cr2O3}$
-- $\ce{Fe2O3}$
-- $\ce{TiO2}$
-- $\ce{ZrO2}$
-- $\ce{SnO2}$
-- $\ce{MnO2}$
+- $\ce{BaSO4}$ - basisch
+- $\ce{SrSO4}$ - basisch
+- $\ce{CaSO4}$ - basisch
+- $\ce{Al2O3}$ -  basisch
+- $\ce{Al(OH)3}$ -  basisch
+- $\ce{Cr2(SO4)3}$ - oxidation
+- $\ce{Cr2O3}$ -  oxidation
+- $\ce{Fe2O3}$ - Sauer
+- $\ce{TiO2}$ - Sauer
+- $\ce{ZrO2}$ - Sauer
+- $\ce{SnO2}$ - freiberger
+- $\ce{MnO2}$ - oxidation
 # Aufgabe
 Es sind die Enthaltenen Metalle nachzuweisen:
 Weiterhin sind Wasser und Säurelösliche Bestandteile enthalten.
@@ -78,6 +78,7 @@ $\ce{TiO2 + 2KHSO4 -> TiOSO4 + K2SO4 + H2O}$
 Löst Saure und Amphotere Oxide, SIlberhalogenide und Erdalkalimetallsulfate.
 
 Bei Erdalkalimetallen entstehen säurelösliche Carbonate welche sehr Gründlich Gewaschen (bis neutral) und mit Essigsäure oder Salpetersäure gelöst werden.
+Gleiches gilt für Silberhalogenide
 
 >[!important] Durchführung
 > - 1:1 Gemisch von $\ce{Na2CO3}$ und $\ce{K2CO3}$ auf einer Magnesiarinne vorsichtig schmelzen (großer Überschuss (mindestens 10))
@@ -210,7 +211,7 @@ $\ce{TiO -> [Ti(O2)(OH)]+ -> [TiF6]^2-}$
 
 # Zirconium
 ## Aufschluss
-Soda Pottasche Aufschluss. und lösen in H2=
+Soda Pottasche Aufschluss. und lösen in H2O
 Zugabe verd. H2SO4
 Mit 3mol NaOH fällt farbloses gallertartiges $\ce{ZrO2*H2O}$ aus.
 Dieses kann frisch wieder mit säuren gelöst werden.
