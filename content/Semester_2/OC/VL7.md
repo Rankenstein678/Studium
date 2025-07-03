@@ -1,8 +1,9 @@
 
-# Saytzev-Regel
-Basenkatalysierte E2-Eliminierung führen meist bevorzugt zum thermodynamisch günstigeren Alken, es wird die höher substituierte Doppelbindung bevorzugt gebildet. Das Saytzeff-Produkt ist bei Eliminierungen meistdas bevorzugte Produkt, da bei der E1-Eliminierung das intermediär entstehende Carbenium-Ion durch die Substituenten stabilisiert wird
+# Herstellung von Alkenen durch E2
 
-Sterisch ansrpuchslose Reaagenzien und hohe Temperaturen
+## Saytzev-Regel
+Ist die Base sterisch anspruchslos entsteht nach der Saytzev Regel hauptsächlich das höher Substituierte (also thermodynamisch stabilere) Alken. 
+Sterisch anspruchslose Basen und hohe Temperaturen sprechen dafür
 # Hofmman Regel
 Sterisch anspruchsvolle Basen bevorzugen bei der Eliminierungsreaktion (E2) das kinetischen Produkt, es wird die niedriger substituierte Doppelbindung bevorzugt gebildet
 
@@ -18,5 +19,15 @@ Niedrige temperaturen und sterisch anspruhsvolle
 ### Esterprotolyse
 ![[Pasted image 20250622205510.png]]
 
->[!important] Chugaev (Tschugajew)-Eliminierung
->
+>[!namensreaktion] Chugaev (Tschugajew)-Eliminierung
+>Sanftere Alternative zur Esterpyrolyse
+>![[Pasted image 20250629163755.png]]
+
+>[!namensreaktion] Hof(1 f!!!!)man Eliminierung von Aminen
+>![[Pasted image 20250629164714.png]]
+
+>[!namensreaktion] Cope-Eliminierung von Aminen
+>![[Pasted image 20250629165139.png]]
+
+![[Pasted image 20250629165518.png]]
+Sowohl Cope als auch Hofmann elimierung führen zum HOfman produkt. Aufgrund der intermolekularen Reaktion benötigt die Cope E keine antiperiplanare Anordnung und reagiert syn

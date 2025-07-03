@@ -75,11 +75,9 @@ In Zyclen spricht man von einem Oxacycloalkan
 ![[Pasted image 20250622200430.png]]
 Oxacyclopentan
 
-Ansonsten spricht man von Ethern
-![[Pasted image 20250622200501.png]]
 
 >[!namensreaktion] Williamson-Ethersynthese
->Substituion mit Alkoxid als Nukleophil zur Synthese von Ethern
+>SN2 mit Alkoxid als Nukleophil an primären halogenalkanzur Synthese von Ethern
 >![[Pasted image 20250622200958.png]]
 >In der zyklischen Variante wird das Alkoxid im Molekül selbsg gebildet.
 >![[Pasted image 20250622201032.png]]
@@ -95,5 +93,6 @@ Kohlenstoff ist sp2 hybridisiert
 5. E/Z isomerie mit höchster CIP Priorität
 ![[Pasted image 20250622202014.png]]
 
+Als Nebenkette: Alkyliden
 ## Stabilität
 kein bis einseitig Substituierte > e > z > höher substituiertt > niedrrig subsituierte
