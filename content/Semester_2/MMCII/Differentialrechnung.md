@@ -139,3 +139,15 @@ D\,f(a)=\begin{pmatrix}\color{lightgreen}\dfrac{\partial f^1}{\partial x_1}(a)&\
 $$
 heißt die ==Jacobi'sche== oder Funktionalmatrix
 Grün markiert ist der Gradient von $f^1$
+
+# Hesse Matrix
+mit $f(x,y)$
+$$
+    \begin{pmatrix}
+    \frac{\partial f^2}{\partial x^2}&
+    \frac{\partial f^2}{\partial xy}\\
+    \frac{\partial f^2}{\partial yx}&
+    \frac{\partial f^2}{\partial y^2}
+    
+    \end{pmatrix}
+$$
