@@ -53,7 +53,7 @@ $$
 >$y=x/\alpha$
 >$\alpha = \sqrt[4]\frac{\hbar^2}{mk_f}$, 
 >Normierungskonstante $N_y=(\sqrt\pi2^vv!)^{-\frac12}$
->Hermite Polynome $H_0(y)=1$, $H_1(y)=2y$, $H_2(y)=4y^2-2$
+>Hermite Polynome $H_0(y)=1$, $H_1(y)=2y$, $H_2(y)=4y^2-2$, $H_3 = 8x^3-12x$
 >![[Pasted image 20250810185436.png]]
 
 >[!important] Harmonischer Oszillator - Nichtklassische Aufenthaltswahrscheinlichkeit
