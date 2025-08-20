@@ -9,6 +9,7 @@
 
 
 >[!important] Morsepotential / Anharmonischer Oszillator
+>Auswahlregeln $\Delta v=\pm 1, \pm 2, \ldots$
 >Da Dissoziation muss bei höheren Aulenkungen für $V(x)$ anstatt $\\frac 12 k_f x^2$ 
 >$$
 >V(x) = D_e = \left(1-e^{-a(R-R_e)}\right)

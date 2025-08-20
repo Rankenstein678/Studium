@@ -20,13 +20,17 @@ $$
 \underline F_{Ges} = \sum F
 $$
 # Kräfte
-## Elementarkräfte
+- Die 4 Fundamentalkräfte ergeben alle anderen Kräfte
+- Abgeleitete Kräfte sind Käfte ddie direkt aus den Fundamentalklräften abegeletie werden konnten Bsp: Federkraft
+- Empirische Kräfte sind Kräfte, die zu kompliiziert waren, um sie aus den Fundamentalkkäften abzuleiten. Beispiele sind Reibenungskräfte oder Muskelkräfte ???
+## 4 Fundamentalkräfte
 $$
 \begin{align}
     F_{Gravitation} = -G \frac{M\cdot m}{|\underline r^2|} \hat{\underline r}\\
     F_{Coulomb} = \frac{1}{4\cdot \pi \cdot \epsilon_0} \frac{q\cdot Q}{ r^2} \cdot\hat{\underline r}
 \end{align}
 $$
+Schwache und Starke WW.
 
 ## Reibungskräfte
 $$
