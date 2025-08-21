@@ -39,7 +39,11 @@
 >-\frac{\hbar^2}{2l}\frac{d^2}{d\varphi^2} = E\Psi_{m_l}
 >\end{align}
 >$$
->Die Wellenfunktion ist
+>Lösung der Schrödingergleichung ist
+>$$
+>\Psi(\varphi) = exp(i\phi\pm\frac{\sqrt{2EI}}\hbar)
+>$$
+> Aus der Periodizität folgt mit dem Normierungsfaktor
 >$$
 >\Psi(\varphi) = \frac1{\sqrt{2\pi}}e^{im_l\varphi}
 >$$
@@ -65,5 +69,8 @@
 >$$
 
 >[!important] Kugelflächenfunktionen 
+>$$
+>Y_{\ell,m_\ell}
+>$$
 >![[Pasted image 20250811234637.png]]
 
