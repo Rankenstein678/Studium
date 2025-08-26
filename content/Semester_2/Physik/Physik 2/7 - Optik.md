@@ -1,4 +1,4 @@
-# Wellen in der Materie
+	# Wellen in der Materie
 $$
 v_{p, mat} \approx \frac{v_{vac}}{\sqrt{\mu\varepsilon}}
 
@@ -16,6 +16,10 @@ Dabei bezeichnet ne: Elektronendichte, m: Elektronenmasse, γ: Dämpfungskonstan
 ![[Pasted image 20250823165317.png]]
 
 ![[Pasted image 20250823164429.png]]
+# intensitätsabfall bei sichtbaren Licht
+$$
+	p= I_0\cdot 4\pi s^2
+$$
 
 # Optische INstrumente
 ## Linsen

@@ -62,6 +62,9 @@ $$
 Insbesondere beim Aus- und Einschalten des Stroms in einem Leiter entsteht eine Stromänderung die ein sich änderndes B-Feld zur Folge hat, das seinerseits eine Spannung im Leiter induziert.
 Abhängig von ==Induktivität L==
 
+E-Strom erzeugt magnetfeld (rechte Hand)
+B-Feld erzeugt wirbelstrom (linke Hand)
+
 ## In der Spule
 $$
 U = - N\pi r^2|\dot{\u B}|= -N\pi r^2\mu_0\cdot n\cdot \dot I(t)

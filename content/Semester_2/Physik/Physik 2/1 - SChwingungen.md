@@ -1,4 +1,7 @@
 # Harmonische
+$$
+\ddot x = -ax
+$$
 Allgemeine Lösung
 $$
 x(t) = A\cdot \cos(\omega_0 t + \phi)
@@ -19,6 +22,9 @@ $$
 ### Pendel
 $$
 \alpha(t) = \alpha_0\cos(\sqrt{\frac gl}t)
+$$
+$$
+v=\alpha_0\cdot\omega\cdot L
 $$
 ### Längsschwingungen
 $$

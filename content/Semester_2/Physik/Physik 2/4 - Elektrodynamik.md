@@ -37,6 +37,11 @@ $$
 \rho =\sigma^{-1}
 $$
 Einheit $\Omega m$
+
+In einer Spule Spannungsaufbau
+$$
+I(t) = I_0\left(1-\exp\left(-\frac{tL}{R}\right)\right)
+$$
 ### Widerstand
 $$
 I = \frac{\sigma\cdot A}LU=S\cdot U

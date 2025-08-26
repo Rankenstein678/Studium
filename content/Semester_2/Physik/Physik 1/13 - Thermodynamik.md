@@ -4,11 +4,16 @@ $$
 $$
 Arbeit am System: Positiv
 
-Systemenergie / innere Energie U
+  innere Energie U
 $$
 \Delta U =\frac f2\cdot N\cdot k\cdot T
 $$
+Vibrationsfreiheitsgrade zählen dpplt
 
+Bei reversiblen prozessen gilt:
+$$
+\Delta W = -pdV
+$$
 ## 2. HS
 Ein nach außen abgeschlossenes Gesamtsystem nimmt langfristig immer seinen Wahrscheinlichsten Zustand ein
 

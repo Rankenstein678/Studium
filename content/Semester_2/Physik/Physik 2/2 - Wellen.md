@@ -19,6 +19,10 @@ $$
 v_p=\sqrt \frac1{\kappa\rho_0}
 $$
 Wasserwellen:
+Wenn tiefe << wellenlänge
+$$
+v=\sqrt{gz}
+$$
 $$
 v_p=\frac\lambda T=\sqrt{\frac{g\lambda}{2\pi}\cdot\tanh \left( \frac{2\pi x}\lambda \right)}
 $$
