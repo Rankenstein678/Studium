@@ -37,3 +37,4 @@ $$
 $$
 Binnendruck: $\frac a{V^2}$, b: Kovolumen $4\cdot V_{molekül}$ 
 
+![[Pasted image 20250820194155.png]]
