@@ -8,6 +8,10 @@ $$
 Sigma: Spannung \[Pa]
 E: Elastizitätsmodul \[Pa]
 Epsilon: Dehnung \[1]
+$$
+\frac{\Delta l}l = \frac 1E\cdot\frac {|F|}A
+$$
+
 
 Querkontraktion heißt diccke änderung bebi dehnung
 Poissionzahl

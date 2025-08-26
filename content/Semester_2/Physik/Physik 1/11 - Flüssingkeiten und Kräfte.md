@@ -16,6 +16,11 @@ $$
 F =(\rho_K-\rho_F)\cdot g\cdot A\cdot\Delta h
 $$
 Auf einen Körper in Flüssigkeit wirkt zusätzlich eine Auftriebskraft nach oben, die der Gewichtskraft der verdrängten Flüssigkeitsmenge entspricht.
+Druck in einer Flüssigkeit:
+$$
+p=\rho\cdot g\cdot \Delta h
+$$
+
 
 ## Hydrodynamik
 ### Strömungen

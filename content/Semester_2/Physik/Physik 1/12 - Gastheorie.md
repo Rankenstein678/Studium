@@ -37,4 +37,22 @@ $$
 $$
 Binnendruck: $\frac a{V^2}$, b: Kovolumen $4\cdot V_{molekül}$ 
 
+<<<<<<< HEAD
 ![[Pasted image 20250820194155.png]]
+=======
+![[Pasted image 20250821132226.png]]
+
+$$
+T_K = \frac{8a}{27Rb}
+$$
+$$
+p_K=\frac a{27b^2}
+$$
+![[Pasted image 20250821132504.png]]
+
+$$
+p_D(T) = \frac NV\cdot e^{-\frac {E_B}{k\cdot T}}\cdot k\cdot T
+$$
+
+• Flüssigkeiten sieden, wenn der Dampfdruck gleich dem Außendruck is
+>>>>>>> 12cb99c4f80dc028a25f184840aaeca0b02e70a2
