@@ -21,13 +21,13 @@ Niedrige temperaturen und sterisch anspruhsvolle
 
 >[!namensreaktion] Chugaev (Tschugajew)-Eliminierung
 >Sanftere Alternative zur Esterpyrolyse
->![[Pasted image 20250629163755.png]]
+>![[img/Pasted image 20250629163755.png]]
 
 >[!namensreaktion] Hof(1 f!!!!)man Eliminierung von Aminen
->![[Pasted image 20250629164714.png]]
+>![[img/Pasted image 20250629164714.png]]
 
 >[!namensreaktion] Cope-Eliminierung von Aminen
->![[Pasted image 20250629165139.png]]
+>![[img/Pasted image 20250629165139.png]]
 
-![[Pasted image 20250629165518.png]]
+![[img/Pasted image 20250629165518.png]]
 Sowohl Cope als auch Hofmann elimierung führen zum HOfman produkt. Aufgrund der intermolekularen Reaktion benötigt die Cope E keine antiperiplanare Anordnung und reagiert syn

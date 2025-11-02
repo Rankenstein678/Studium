@@ -1,7 +1,7 @@
 # Polyzyklische Alkane
 Verknüpft / anelliert
 
-![[Pasted image 20250621195941.png]]
+![[img/Pasted image 20250621195941.png]]
 
 Schreibweise
 
@@ -11,10 +11,10 @@ Bsp oben:
 Bicyclo\[4:4:0]decan
 oder:
 Bycyclo\[2:2:1]heptan
-![[Pasted image 20250621200250.png]]
+![[img/Pasted image 20250621200250.png]]
 
 # Stereoisomerie
-![[Pasted image 20250621203007.png]]
+![[img/Pasted image 20250621203007.png]]
 
 ## Enantiomere
 Wie Bild und Spiegelbild.

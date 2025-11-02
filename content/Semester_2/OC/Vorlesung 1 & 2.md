@@ -1,5 +1,5 @@
 # Funktionelle Gruppen
-![[Pasted image 20250621184654.png]]
+![[img/Pasted image 20250621184654.png]]
 
 R* => R kann auch H sein
 
@@ -10,7 +10,7 @@ keine Funktionalität
 aliphatische (nicht aromatische) gesättigte Kohlenwasserstoffe
 
 ## Nomenklatur
-![[Pasted image 20250621185203.png]]
+![[img/Pasted image 20250621185203.png]]
 
 # Isomerie
 ## Konstitutionsisomere
@@ -20,7 +20,7 @@ Nur durch Bindungsbrüche überführbar
 Durch Drehung um Einfach-Bindungen überführbar
 ### Newmann Projektion
 Darstellung von Konformationsisomeren
-![[Pasted image 20250621190014.png]]
+![[img/Pasted image 20250621190014.png]]
 Der Kreis entspricht dem hinteren C-Atom
 Alle anderen Zustände heißen "schief"
 Der ekliptische Zustand ist am energetisch ungünstigsten.
@@ -40,7 +40,7 @@ Nur bei Ringsystemen
 
 ## Ringspannung
 Cycloalkane Besitzen eine ==Ringspannung== durch ekliptische Stellungen der H-Atome und Verzerrung des Tetraederwinkels sowie weitere sterische Effekte
-![[Pasted image 20250621190706.png]]
+![[img/Pasted image 20250621190706.png]]
 
 ## Ringformen
 Um Ringspannung, ekliptische und transannulare WW zu vermeiden sind cycloalkane meist nicht planar.
@@ -51,7 +51,7 @@ Cyclopentan ist ein Briefumschlag
 #### Cyclohexan
 Cyclohexan liegt in der Sesselkonformation vor. Dies ist die Energetisch günstigste Form und quasi Spannungsfrei.
 Ungünstig ist die Wanne/Boot Konfiguration
-![[Pasted image 20250621193253.png]]
+![[img/Pasted image 20250621193253.png]]
 
 #### äquatorial und axial
 Substituenten die in Richtung der Ebene des Konformeres zeigen nennt man äquatorial, orthogonale dazu axial.

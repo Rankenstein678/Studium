@@ -4,7 +4,7 @@ asymetrisches C-Atom -> Chiralitäts- / Stereozentrum
 
 Enatniomere haben keine Internen SPiegelebenen, Rotationsachsen oder Inversionszentren
 
-![[Pasted image 20250621204033.png]]
+![[img/Pasted image 20250621204033.png]]
 
 
 Untersdcheidung durch WW mit anderen Enantiomeren oder der Drehung linear polarisertem Lichts
@@ -41,11 +41,11 @@ Nur für Kohlenhydrate und Aminosäuren
 
 # CIP
 Für alle Verbindungen
-![[Pasted image 20250621210550.png]]
+![[img/Pasted image 20250621210550.png]]
 R -> Uhrszeigersinn
 S -> gegen den Uhrzeigersinn
 
 # Meso Formen
 meso-Formen besitzen Stereozentren, sind jedoch achiral. Sie weisen ein internes Symmetrieelement (z. B. Spiegelebene) auf.
 Mehrere Stereozentren -> verschiedene Richtungen
-![[Pasted image 20250621210724.png]]
+![[img/Pasted image 20250621210724.png]]
