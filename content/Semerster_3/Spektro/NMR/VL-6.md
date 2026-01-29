@@ -41,4 +41,9 @@ angegeben werden, z.B. JFC, JCH.
 # Chemischer Austausch 
 ![[Pasted image 20260115192405.png]]
 
+>[!important] Koaleszenz
+>$$
+>\frac{\sqrt 2 k_{ex}}\pi =  \nu_1-\nu_2
+>$$
+
 # TODO HIER FEHLT MEHR
