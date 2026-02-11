@@ -4,7 +4,7 @@ Schickt man Licht durch eine Probe, so werden die Wellen absorbiert, die zu eine
 "Überlappungsintegral der Vibrationswellenfunktionen"proportional zur Intensität![[Pasted image 20260122113103.png]]
 Nur vertikale Übergänge erlaubt, da Elektronenübergänge viel schneller als Änderung der Kern-Koordinaten sind (vgl. BORN-OPPENHEIMER -Näherung)
 
-
+![[Pasted image 20260209152443.png]]
 # Absorptionsspektroskopie
 ![[Pasted image 20260122113438.png]]
 Lichtintensitätsänderung in dünner Schicht

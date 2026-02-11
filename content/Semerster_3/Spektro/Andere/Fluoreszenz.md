@@ -121,3 +121,11 @@ Mit dem Förster Radius ($R_0$) (==Abstand== (nicht radius) wo Intensität ist h
 Löschung da schwere Atome den ISC beschleunigen
 
 
+# Zeitskalen
+Anregung 10^-15
+IC 10^-11 10^-9
+vib 10^-12
+ISC 10^-10 -10^-8
+Phospho: micro bis sekungen
+Fluoreszen: 10^-10 -10^-7
+![[Pasted image 20260207234049.png]]

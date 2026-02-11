@@ -1,0 +1,4 @@
+- Gase
+- gute löslichkeit in polaren Lösemitteln
+- Dipolmoment nimmbt ab
+- Säurestärke nimmt zu

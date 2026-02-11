@@ -1,4 +1,4 @@
-# Spektren höherer Ordnung
+	# Spektren höherer Ordnung
 >[!important] Spektren höherer Ordnung
 >Ab:
 >$$
@@ -46,4 +46,4 @@ angegeben werden, z.B. JFC, JCH.
 >\frac{\sqrt 2 k_{ex}}\pi =  \nu_1-\nu_2
 >$$
 
-# TODO HIER FEHLT MEHR
+<-Ä:Ü!""""""
