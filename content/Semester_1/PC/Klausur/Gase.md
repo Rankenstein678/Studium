@@ -126,7 +126,7 @@ Wenn $p\rightarrow 0$ und $B=0$ (die weiteren Virialkoeffizienten können ignori
 
 ![[Pasted image 20250112215220.png]]
 ## 3.4 Kritischer Punkt
-Der kritische Punkt ist genau der Punkt im  Phasendiagramm (siehe [[Gase#3. Ideales Gas]]) an dem die Obere Spitze des Verflüssigungsbergs berührt wird.
+Der kritische Punkt ist genau der Punkt im  Phasendiagramm (siehe [[Semester_1/PC/Klausur/Gase#3. Ideales Gas]]) an dem die Obere Spitze des Verflüssigungsbergs berührt wird.
 In diesem Zustand lassen sich Flüssigkeit und Gas nicht mehr unterscheiden;
 
 Beschrieben wird der Punkt durch

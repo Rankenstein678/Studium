@@ -16,7 +16,7 @@ $$
 $$
 solar grade 99.99%
 $$
-Si_{mg} + 3HCl_{(g)}-> SiHCl3 + H2O
+\ce{Si_{mg} + 3HCl_{(g)}-> SiHCl3 + H2O}
 $$
 Destillation des Trichlorsilans und Ziehkristallverfahren führt zu solar grade
 electronic grade 99.9995%
