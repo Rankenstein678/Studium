@@ -1,4 +1,38 @@
 ![[LatexMacros#^macros]]
+
+# Binäre Mischung
+$$
+\ddxc V{n_i}{pTn_{j\ne i}} := Molares\ Volumen
+$$
+Gibbs-DUhem
+$$
+n_A\cdot \d V_A + n_B \cdot \d V_B=0
+$$
+
+# Gibbs Energie
+Wenn p,T=const.
+
+$$
+G = \mu_A \d n_A + \mu_B \d n_B
+$$
+
+$$
+G_m = x_A\mu_A+ x_B \mu_B
+$$
+![[Pasted image 20260726213159.png]]
+
+
+
+# Raoul vs Henry
+Henry bei kleinen molenbrüchen gut, Raouk bei großen
+Henry
+$$
+p_i = x_i \cdot K
+$$
+$$
+p_i = x_i^l\cdot p_A^*
+$$
+Molenbruch in fl. Phase, reiner Dampfdruck
 # Freie Mischungsenthalpie von Gassen
 $$
 nRT(x_A \ln x_A + x_B \ln x_B)
